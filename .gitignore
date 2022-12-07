@@ -1,0 +1,14 @@
+.cache
+.vs
+.vscode
+.venv
+/.idea
+**/cmake-build-*/
+**/*build/
+*.obj
+*.a
+*.so
+*.wasm
+*.aot
+
+

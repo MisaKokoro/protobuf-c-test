@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Unit {
+    int32 a = 1;
+    int64 b = 2;
+    string c = 3;
+}
