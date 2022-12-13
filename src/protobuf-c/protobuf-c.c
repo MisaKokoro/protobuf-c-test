@@ -3060,6 +3060,7 @@ protobuf_c_message_unpack(const ProtobufCMessageDescriptor *desc,
 	if (allocator == NULL)
 		allocator = &protobuf_c__allocator;
 
+	//为要返回的结构体分配空间
 	rv = do_alloc(allocator, desc->sizeof_message);
 	if (!rv)
 		return (NULL);
